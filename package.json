@@ -1,0 +1,15 @@
+{
+  "name": "fieldslib",
+  "version": "0.0.1",
+  "description": "Syntax extension to define first class values representing record fields, to get and set record fields, iterate and fold over all fields of a record and create new record values",
+  "license": "Apache-2.0",
+  "jengaboot": {
+    "ppxFlag": "ppx-jane -as-ppx -inline-test-lib core -inline-test-drop -bench-drop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsansouci/fieldslib.git"
+  },
+  "author": "Jane Street Group, LLC <opensource@janestreet.com>"
+}
+
